@@ -1,0 +1,11 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .MainContainer {
+        position: absolute;
+        top: 65px;
+        padding-top: 1%;
+        width: 100%;
+        height: calc(100% - (2% + 65px));
+        min-height: 70%;
+    }
+}

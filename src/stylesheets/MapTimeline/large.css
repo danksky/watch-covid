@@ -1,0 +1,10 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .MapTimeline {
+        display: inline-block;
+        padding: 0px;
+        /* background-color: ivory; */
+        width: 100%;
+        height: 11.5%;
+    }
+}

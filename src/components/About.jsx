@@ -38,9 +38,8 @@ export default class About extends React.Component {
                 <div id="what" className="about-card">
                     <Typography className="about-card-title" variant="button" display="block" gutterBottom>What is WatchCovid.org?</Typography>
                     <Typography className="about-card-body" variant="body1" display="block" gutterBottom>
-                        The better question is: who is WatchCovid.org? We're a small group of designers, analysts, and engineers doubling as infectious disease
-                        researchers "for the time being." There's a <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov">lot of information</a> out
-                        there about what we're dealing with. We aim to to refine it, simplify it, and convey it to you digestibly.
+                        It's me, Dan. I'm an engineer and designer. There's a <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov">lot of information</a> out
+                        there about what we're dealing with. I aim to to refine it, simplify it, and convey it to you digestibly.
                     </Typography>
                 </div>
                 <div id="data" className="about-card">
@@ -53,8 +52,8 @@ export default class About extends React.Component {
                 <div id="coming" className="about-card">
                     <Typography className="about-card-title" variant="button" display="block" gutterBottom>What's to come with WatchCovid.org?</Typography>
                     <Typography className="about-card-body" variant="body1" display="block" gutterBottom>
-                        Currently, the <Link to="/">dashboard</Link> only provides information on verified case-counts. We aim to improve it with geo-located test information.
-                        Later versions of this website will improve the granularity of analysis (by geographical study) and provide peer-reviewed consensuses for your edification.
+                        Currently, the <Link to="/">dashboard</Link> only provides information on verified case-counts. I aim to improve it with geo-located TEST information, too.
+                        Later versions of this website will improve the granularity of analysis (by geographical study).
                     </Typography>
                 </div>
                 <div id="curve" className="about-card">
@@ -81,7 +80,7 @@ export default class About extends React.Component {
                 <div id="support" className="about-card">
                     <Typography className="about-card-title" variant="button" display="block" gutterBottom>How can I support WatchCovid.org?</Typography>
                     <Typography className="about-card-body" variant="body1" display="block" gutterBottom>
-                        You can <Link to="/support">keep us caffeinated!</Link>
+                        You can <Link to="/support">keep me caffeinated!</Link> I'll end up donating your donation, though, because Starbucks ain't happening.
                     </Typography>
                 </div>
             </div>

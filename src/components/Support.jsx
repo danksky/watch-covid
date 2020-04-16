@@ -23,9 +23,9 @@ export default class Support extends React.Component {
         return (
             <div className="Support">
                 <div id="what" className="support-card">
-                    <Typography className="support-card-title" variant="button" display="block" gutterBottom>Help us Keep on</Typography>
+                    <Typography className="support-card-title" variant="button" display="block" gutterBottom>HELP ME KEEP ON CODING ON</Typography>
                     <Typography className="support-card-body" variant="body1" display="block" gutterBottom>
-                        coding on.<br />
+                        Any donations I receive will be put towards hosting costs or donated if in exccess of my expense to keep this up.<br />
                         <a href='https://ko-fi.com/G2G41J24S' target='_blank'>
                             <img height='36' style={{ border: "0px", height: "36px" }} src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
                         </a>

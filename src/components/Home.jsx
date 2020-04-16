@@ -14,9 +14,9 @@ import '../stylesheets/Home/xl.css'
 
 const dataEndpoints = {
     cases: {
-        confirmed: "https://cdn.jsdelivr.net/gh/CSSEGISandData/COVID-19/archived_data/archived_time_series/time_series_19-covid-Confirmed_archived_0325.csv?" + Math.random(),
-        deaths: "https://cdn.jsdelivr.net/gh/CSSEGISandData/COVID-19/archived_data/archived_time_series/time_series_19-covid-Deaths_archived_0325.csv?" + Math.random(),
-        recovered: "https://cdn.jsdelivr.net/gh/CSSEGISandData/COVID-19/archived_data/archived_time_series/time_series_19-covid-Recovered_archived_0325.csv?" + Math.random(),
+        confirmed: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv?" + Math.random(),
+        deaths: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv?" + Math.random(),
+        recovered: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv?" + Math.random(),
     }
 }
 

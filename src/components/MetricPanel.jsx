@@ -27,7 +27,7 @@ export default class MetricPanel extends React.Component {
                     <div className="metric-panel-chart-title">
                         <MaterialTooltip title="Number of days it takes for a population to double in size." aria-label="add">
                             <Typography variant="overline" display="block" gutterBottom>
-                                Doubling Rate
+                                Doubling Period
                             </Typography>
                         </MaterialTooltip>
                     </div>

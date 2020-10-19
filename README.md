@@ -11,7 +11,7 @@ The instructions for how to the realtime chloropleth map component are on my blo
 ## Scripts
 
 ### Run
-To run this blog locally: 
+To run this project locally: 
 
 ```console
 $ npm start

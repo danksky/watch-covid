@@ -1,0 +1,14 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Loading {
+    position: absolute;
+    padding: 12px;
+    left: calc(19% + 2 * 12px);
+    margin: 0;
+    display: inline-block;
+    width: 53%;
+    height: 80%;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.24);
+  }
+}

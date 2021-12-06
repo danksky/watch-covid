@@ -1,0 +1,13 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Loading {
+    position: static;
+    padding: 12px;
+    margin-left: 2.5%;
+    width: calc(95% - 2 * 12px);
+    height: 60%;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.24);
+    margin-bottom: 10px;
+  }
+}

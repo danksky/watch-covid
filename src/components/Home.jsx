@@ -5,6 +5,7 @@ import { feature } from "topojson-client"
 import Map from './Map';
 import ControlPanel from './ControlPanel';
 import MetricPanel from './MetricPanel';
+import TODONOTSUPPORT from './Loading';
 
 import '../stylesheets/Home/xs.css'
 import '../stylesheets/Home/small.css'
@@ -175,11 +176,16 @@ export default class Home extends React.Component {
                     geographies={this.state.geographies}
                     category={this.state.category}
                     subcategory={this.state.subcategory}
-                    chartData={this.state.chartData} /> : null}
+                    chartData={this.state.chartData} /> : <TODONOTSUPPORT />}
                 <MetricPanel data={this.state.chartData} />
                 <a className="kofi-box" href='https://ko-fi.com/G2G41J24S' target='_blank'>
                     <img height='36' style={{ border: "0px", height: "36px" }} src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
                 </a>
+                <div>
+                    <div className="credit-pill">
+                        <div className="credit-text">See more of my work at <a href="https://danielkawalsky.com">danielkawalsky.com</a></div>
+                    </div>   
+                </div> 
             </div>
         )
     }

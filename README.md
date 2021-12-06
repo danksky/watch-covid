@@ -31,3 +31,13 @@ $ npm run build
 ```
 
 and see the built version of this app in the `build` folder.
+
+### Deploy
+
+I am using Firebase to deploy this application. I have already created a Firebase project called `map-covid-2019`, so I simply need to run:
+
+```
+$ firebase deploy
+```
+
+from the root directory of this project, and, when prompted, type `build` to specify which folder I would like to serve.

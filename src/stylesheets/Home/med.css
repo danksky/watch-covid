@@ -29,4 +29,12 @@
     margin-right: 10px;
     font-weight: bold;
   }
+
+  .credit-text a {
+    color: rgb(208, 242, 255);
+  }
+
+  .credit-text a:visited {
+    color: rgb(208, 242, 255);
+  }
 }
